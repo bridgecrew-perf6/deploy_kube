@@ -39,7 +39,7 @@ spec:
     targetPort: 1313
     protocol: TCP
     name: http
-    nodePort: 30880
+    nodePort: 30888
   selector:
     app: thuong-nodejs-deployment
   type: NodePort
